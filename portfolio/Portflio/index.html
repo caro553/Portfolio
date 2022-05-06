@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">My contact details</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hey, Je suis <strong>Carolina Vinkovic</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">UI Webdesigner</p>
+            <img src="img/profile.png" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Licence Informatique (paris 8)</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Licence 1</h3>
+                    <p>Dans ma première année de licence informatique j’ai appris la base du codage avec généralement le langage C,comment commencer à coder, savoir comment compilé un code, réparer les erreurs, savoir faire un projet qu’il faut rendre à temps etc. J’ai aussi touché à d’autre langages comme du Lisp, JavaScript, Racket. Pour parler aussi de mes premiers projet, j’ai réaliser en JavaScript un music player ou on peut lancer une musique qu’on veut écouter, puis en List j’ai fait un "problème trafic" vous pouvez consulter sur mon github. </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Licence 2</h3>
+                    <p>Dans ma deuxième années de licence informatique, c’est la ou j’ai réellement réaliser c’est quoi l’informatique, c’est de la recherche, il faut coder tout le temps pour exceller dans le domaine, et apprendre tout seul en dehors des cours est la solution, donc l’autonomie. Cette année la licence informatique à changer en option jeux vidéo donc on a fait beaucoup de projet par rapport aux jeux. Comment un sudoku réaliser en Java. J’ai appris aussi un nouveau langage Rust ou j’ai réaliser un Google-Search, et en C l’interface Glade.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Licence 3 ~</h3>
+                    <p>Dans cette troisième années de licence je l’ai pas terminée car le jeux vidéo ne me passionnais pas tant que ça, au cours du premier semestre j’ai appris à faire un jeu mobile sur Android Studio en Java, puis j’ai créer un jeux vidéo «terraria» en JavaScript et fait de nouveau un projet en C, puis j’ai appris à utiliser Ocaml, j’ai réaliser que cette licence n’était pas faites pour moi mais j’ai tout de même appris beaucoup de choses et ne regrette rien. </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Développeuse Informatique</p>
+           
+           <div class="about-me__body">
+               
+               <p>Pour parler un peu de mon parcours, j'ai obtenue un bac technologique avec mention assez bien, à cette époque la je n'ai absolument 
+                pas touchée à la programmation mais j’étais déjà très souvent sur les ordinateurs. J'ai découvert le codage que dans ma première année 
+                de licence et j'ai beaucoup appréciée l'univers mais je ne savais pas encore vraiment quel domaine principalement pourrai-je aimer. 
+                C'est au cours de la deuxième année ou j'ai commencée à apprendre toute seule grace à un site nommé "freeCodeCamp" que j'ai appris à faire des
+                site web et j'en faisais de mes temps libres. C'est pour cela que je veux me réorienté dans une licence Webdesigner.
+                
+                </p>
+           </div>
+           
+           <img src="img/carolina.png" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Mes projets</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/terraria.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/sudoku.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="img/glade.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="img/google.jpg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 05 -->
+                 <a href="portfolio-item5.html" class="portfolio__item">
+                    <img src="img/hotel.jpg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 06 -->
+                 <a href="portfolio-item6.html" class="portfolio__item">
+                    <img src="img/PC.jpg" alt="" class="portfolio__img">
+                </a>
+                
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="carovinkovic@gmail.com" class="footer__link">carovinkovic@gmail.com</a>
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/caro553">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <li> <a href="Carolina_Vinkovic.pdf">CV</a> </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
